@@ -38,7 +38,7 @@
 
 Каждый из пользователей осуществляет вход с помощью формы – вводит логин и пароль. После этого система определяет роль пользователя и загружает доступные ему страницы.
 
-![image](https://user-images.githubusercontent.com/47516839/173169771-7849762f-00c9-4a20-b92c-12893ec41793.png)
+![image]([https://user-images.githubusercontent.com/47516839/173169771-7849762f-00c9-4a20-b92c-12893ec41793.png](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/1.jpg))
 
 
 ## Руководство для пользователя с ролью «Клиент» или «Гость»
