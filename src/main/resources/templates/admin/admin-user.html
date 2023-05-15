@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <title>Пользователи</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<body>
+
+<div th:insert="fragment/navbar-admin.html :: nav"></div>
+
+<div class ="container" >
+    <div class = "row mt-5" >
+        <h1> Список пользователей </h1>
+    </div>
+    <div class = "row">
+        <div class = "col-lg-3">
+            <a th:href = "@{/user/new}" class = "btn btn-primary btn-sm mb-3"> Добавить</a>
+        </div>
+    </div>
+    <table class = "table table-striped table-bordered">
+        <thead class = "table-dark">
+        <tr>
+            <th> Имя</th>
+            <th> Пароль </th>
+            <th> Emal</th>
+            <th> Роль </th>
+            <th> Изменить </th>
+            <th> Удалить </th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <!--/*@thymesVar id="pets" type=""*/-->
+        <tr th:each="user: ${users}">
+            <td th:text = "${user.username}"></td>
+            <td th:text = "${user.password}"></td>
+            <td th:text = "${user.email}"></td>
+            <td th:text = "${user.role}"></td>
+            <td>
+            <a th:href = "@{/user/edit/{id} (id=${user.id})}"
+               class = "btn btn-warning">Обновить</a>
+            </td>
+            <td>
+            <a th:if="${userId} != ${user.id}" th:href = "@{/user/del/{id} (id=${user.id})}"
+               class = "btn btn-danger">Удалить</a>
+            </td>
+        </td>
+        </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+</body>
+<div th:insert="fragment/footer.html :: copy"></div>
+
+</html>
