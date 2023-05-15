@@ -48,8 +48,8 @@
 
 ![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/2.jpg)
 ![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/3.jpg)
-![image]()
-![image]()
+![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/4.jpg)
+![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/5.jpg)
 
 ## <a name="task2"></a> 3. Требования к системе
 
