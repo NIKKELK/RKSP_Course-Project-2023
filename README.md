@@ -46,8 +46,10 @@
 Вход осуществляется с помощью формы входа. После чего система распознает его и дает доступ к страницам. Посетитель может просматривать каталог товаров.
 
 
-![image](https://user-images.githubusercontent.com/47516839/173169862-bad9cd1c-c789-4772-a435-102650d4bdee.png)
-![image](https://user-images.githubusercontent.com/47516839/173169883-89e77d29-8132-4b4c-8e6b-b61fb407ccbb.png)
+![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/2.jpg)
+![image](https://raw.githubusercontent.com/NIKKELK/RKSP_Course-Project-2023/main/3.jpg)
+![image]()
+![image]()
 
 ## <a name="task2"></a> 3. Требования к системе
 
